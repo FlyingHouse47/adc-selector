@@ -1,17 +1,13 @@
-# title: adc-selector
-# author: FlyingHouse47
-# date: 13th May, 2017
-
-# Modul random importieren
+# import module random
 import random
 
-# Zufallsgenerator initialisieren
+# initialize random seed generator
 random.seed()
 
-# Zufallswerte
-champ = random.randint(1,7)
+# random numbers
+champ = random.randint(1,8)
 
-# Deklaration Champions
+# declaration of champions
 draven = 1
 jinx = 2
 twitch = 3
@@ -21,7 +17,7 @@ caitlyn = 6
 kalista = 7
 xayah = 8
 
-# Ausgabe
+# output
 print("Welcome to ADC-Selector!")
 
 if champ == draven:
